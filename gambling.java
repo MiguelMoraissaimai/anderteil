@@ -9,6 +9,7 @@ class gambling{
         int numero1 = 0;
         int numero2 = 0;
         int numero3 = 0;
+        int attempts = 0;
 
         while(!jackpot){
 
@@ -40,9 +41,12 @@ class gambling{
             if(numero1 == numero2 && numero1 == numero3 && numero2 == numero3){
 
                 System.out.println("JACKPOT!!!");
+                System.out.println(attempts);
                 jackpot = true;
 
             }   
+
+            attempts++;
 
         }
 
