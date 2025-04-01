@@ -44,7 +44,7 @@ class gambling{
 
             }   
             attempts=attepmts+1;
-            system.out.println("try number: "+attepmts);
+             System.out.println("try number: "+attepmts);
 
         }
 
