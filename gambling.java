@@ -35,13 +35,13 @@ class gambling{
 
                 numero3 = (int) (Math.random()*(9-1)+1);
                 System.out.println(numero1 + "|" + numero2 + "|" + numero3);
+                System.out.println("attempts: " + attempts);
 
             }
 
             if(numero1 == numero2 && numero1 == numero3 && numero2 == numero3){
 
                 System.out.println("JACKPOT!!!");
-                System.out.println(attempts);
                 jackpot = true;
 
             }   
