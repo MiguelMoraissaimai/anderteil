@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-class gambling{
+class gamblingsaimai{
 
     public static void main(String[]args){
 
         boolean jackpot = false;
-        int attepmts=0;
         int numero1 = 0;
         int numero2 = 0;
         int numero3 = 0;
@@ -46,13 +45,6 @@ class gambling{
                 jackpot = true;
 
             }   
-            attepmts=attepmts+1;
-             System.out.println("try number: "+attepmts);
-            
-            if(attepmts=numero1*111){
-                System.out.println("DOUBLE JACKPOT OMG WOAH FUCK YEAH WOAH")
-            }
-
             attempts++;
 
         }
