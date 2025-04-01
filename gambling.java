@@ -5,7 +5,7 @@ class gambling{
     public static void main(String[]args){
 
         boolean jackpot = false;
-
+        int attepmts=0;
         int numero1 = 0;
         int numero2 = 0;
         int numero3 = 0;
@@ -43,6 +43,8 @@ class gambling{
                 jackpot = true;
 
             }   
+            attempts=attepmts+1;
+            system.out.println("try number: "+attepmts);
 
         }
 
