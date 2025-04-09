@@ -49,8 +49,8 @@ class gambling{
             attepmts=attepmts+1;
              System.out.println("try number: "+attepmts);
             
-            if(attepmts=numero1*111){
-                System.out.println("DOUBLE JACKPOT OMG WOAH FUCK YEAH WOAH")
+            if(attepmts==numero1*111){
+                System.out.println("DOUBLE JACKPOT OMG WOAH FUCK YEAH WOAH");
             }
 
             attempts++;
